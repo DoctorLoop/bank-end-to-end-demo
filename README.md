@@ -4,7 +4,7 @@ Overly simple example end-to-end solution for both predicting likelihoods of new
 
 - Flask web app accepting, validating and correcting (potentially corrupted/incomplete) csv data and form input 
 - Basic TensorFlow model trained on Bank Marketing Data Set (https://archive.ics.uci.edu/ml/datasets/bank+marketing)
-- Validation and correction of csv data including NaN/missing values, incorrect types, missing or incorrectly named columns and filtering of unsolicited columns
+- Coercion of csv data including NaN/missing values, incorrect types, missing or incorrectly named columns and filtering of unsolicited columns
 - SQLite database for storing data parsed from uploaded csv files
 - Jupyter notebook showing training of model
 
